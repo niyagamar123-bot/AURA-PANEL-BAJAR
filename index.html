@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIYAZ STORE - Digital Products</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family: 'Segoe UI', sans-serif;}
+  body{background:#0a0a0a;color:#fff;}
+  header{background:#111;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #00ff88;}
+  header h1{color:#00ff88;font-size:22px;}
+  .profile{display:flex;align-items:center;gap:10px;}
+  .profile img{width:35px;height:35px;border-radius:50%;border:2px solid #00ff88;}
+  
+  .container{max-width:1200px;margin:20px auto;padding:0 15px;}
+  .banner{background:linear-gradient(90deg,#00ff88,#00d4ff);padding:20px;border-radius:12px;text-align:center;margin-bottom:20px;}
+  .banner h2{color:#000;font-size:24px;}
+  
+  .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+  .card{background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:15px;transition:0.3s;}
+  .card:hover{border-color:#00ff88;transform:translateY(-5px);}
+  .card img{width:100%;height:150px;object-fit:cover;border-radius:8px;}
+  .card h3{margin:10px 0;font-size:18px;color:#00ff88;}
+  .card p{font-size:14px;color:#aaa;margin-bottom:10px;}
+  .price{font-size:20px;font-weight:bold;color:#fff;}
+  .btn{background:#00ff88;color:#000;padding:10px;border:none;border-radius:8px;width:100%;font-weight:bold;cursor:pointer;margin-top:10px;}
+  .btn:hover{background:#00d4ff;}
+  
+  .recharge{background:#1a1a1a;padding:20px;border-radius:12px;margin-top:30px;border:1px solid #333;}
+  .recharge h2{color:#00ff88;margin-bottom:15px;}
+  .option{display:flex;justify-content:space-between;background:#222;padding:12px;border-radius:8px;margin:8px 0;}
+  .pay-btns{display:flex;gap:10px;margin-top:15px;}
+  .pay-btns button{background:#ff0080;color:#fff;border:none;padding:10px 20px;border-radius:8px;cursor:pointer;}
+  
+  footer{text-align:center;padding:20px;color:#666;margin-top:30px;border-top:1px solid #222;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NIYAZ STORE</h1>
+  <div class="profile">
+    <span>Md Niyaz</span>
+    <img src="https://i.pravatar.cc/100" alt="profile">
+  </div>
+</header>
+
+<div class="container">
+  <div class="banner">
+    <h2>🔥 100% SAFE & FAST DELIVERY 🔥</h2>
+    <p>Digital Products Store</p>
+  </div>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150/00ff88/000?text=PRODUCT+1" alt="">
+      <h3>PREMIUM APP</h3>
+      <p>100% Safe & Working</p>
+      <div class="price">25৳</div>
+      <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150/00d4ff/000?text=PRODUCT+2" alt="">
+      <h3>VIP TOOL</h3>
+      <p>100% Safe & Working</p>
+      <div class="price">30৳</div>
+      <button class="btn">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x150/ff0080/fff?text=PRODUCT+3" alt="">
+      <h3>PRO SUBSCRIPTION</h3>
+      <p>100% Safe & Working</p>
+      <div class="price">50৳</div>
+      <button class="btn">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="recharge">
+    <h2>Recharge Plans</h2>
+    <div class="option"><span>1 HOUR</span><span>25৳</span></div>
+    <div class="option"><span>1 DAY</span><span>290৳</span></div>
+    <div class="option"><span>7 DAYS</span><span>2100৳</span></div>
+    
+    <h3 style="margin-top:15px;">Payment Method</h3>
+    <div class="pay-btns">
+      <button>bKash</button>
+      <button>Nagad</button>
+      <button>Rocket</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  © 2026 NIYAZ STORE | All Rights Reserved
+</footer>
+
+</body>
+</html>
